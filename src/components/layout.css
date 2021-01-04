@@ -6,7 +6,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  margin: 0;
+  margin: 2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
@@ -72,7 +72,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin-left: 0;
+  margin-left: 2;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
