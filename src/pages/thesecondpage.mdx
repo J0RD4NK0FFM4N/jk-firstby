@@ -1,4 +1,5 @@
 import CanvasDraw from "react-canvas-draw";
+import DrawImage from "../components/draw-image.js";
 
 # so here is the second page
 
@@ -6,3 +7,12 @@ or as it is also known, the first mdx page!
 
 ## paint something:
 <CanvasDraw/>
+
+
+and next up we will make a submit button to save your drawing... then we will layer a drawing component over an image component so you can trace or annotate or highlight things within that image. then we will come up with other cool things to do!
+
+## draw over this image:
+<CanvasDraw
+          brushColor="rgba(155,12,60,0.3)"
+          imgSrc="https://upload.wikimedia.org/wikipedia/commons/b/b0/Wood_wall_2.jpg"
+        />

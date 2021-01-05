@@ -19,9 +19,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        // defaultLayouts: {
-        //   default: require.resolve("./src/components/mdx-layout.js"),
-        // },
+        defaultLayouts: {
+          default: require.resolve("./src/components/mdx-layout.js"),
+        },
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
